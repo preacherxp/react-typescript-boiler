@@ -1,23 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
-function App() {
+import React, { ReactElement } from 'react';
+
+function App(): ReactElement {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Dumbest React + Typescript boilerplate ever</h1>
+        <h2>{'What is included:'}</h2>
+        <ul>
+          <li>{'@typescript-eslint/eslint-plugin": "^4.6.0"'}</li>
+          <li>{'@typescript-eslint/parser": "^4.6.0"'}</li>
+          <li>{'eslint": "^7.12.1"'}</li>
+          <li>{'eslint-config-prettier": "^6.15.0"'}</li>
+          <li>{'eslint-plugin-prettier": "^3.1.4"'}</li>
+          <li>{'eslint-plugin-react": "^7.21.2"'}</li>
+          <li>{'eslint-plugin-react-hooks": "^4.1.2"'}</li>
+          <li>{'eslint-plugin-simple-import-sort": "^5.0.3"'}</li>
+          <li>{'node-sass": "^4.14.1"'}</li>
+          <li>{'prettier": "^2.1.2"'}</li>
+          <li>{'sass-loader": "^10.0.2"'}</li>
+          <br />
+          <li>random prettier config</li>
+        </ul>
       </header>
     </div>
   );
