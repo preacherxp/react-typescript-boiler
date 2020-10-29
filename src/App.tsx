@@ -6,8 +6,8 @@ function App(): ReactElement {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Dumbest React + Typescript boilerplate ever</h1>
-        <h2>{'What is included:'}</h2>
+        <h1>dumbest React + typescript boilerplate ever</h1>
+        <h2>{'what is included:'}</h2>
         <ul>
           <li>{'@typescript-eslint/eslint-plugin": "^4.6.0"'}</li>
           <li>{'@typescript-eslint/parser": "^4.6.0"'}</li>
